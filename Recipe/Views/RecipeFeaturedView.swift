@@ -11,7 +11,6 @@ struct RecipeFeaturedView: View {
     
     @EnvironmentObject var model:RecipeModel
     
-    
     var body: some View {
         VStack(alignment: .leading, spacing: 0) {
         
