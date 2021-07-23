@@ -22,7 +22,6 @@ struct RecipeListView: View {
                     .padding(.top, 40)
                     .font(.largeTitle)
                 
-                
                 ScrollView {
                     LazyVStack (alignment:.leading) {
                         ForEach(model.recipes) { r in
