@@ -24,7 +24,6 @@ struct RecipeDetailView: View {
                     .resizable()
                     .scaledToFill()
                 
-                
                 VStack (alignment: .leading) {
                     Text("Select your serving size:")
                 
