@@ -99,7 +99,7 @@ struct RecipeFeaturedView: View {
     func setFeaturedIndex() {
         
         // Find the index of first recipe that is featured
-        var index = model.recipes.firstIndex { (recipe) -> Bool in
+        let index = model.recipes.firstIndex { (recipe) -> Bool in
             return recipe.featured
         }
         tabSelectionIndex = index ?? 0
